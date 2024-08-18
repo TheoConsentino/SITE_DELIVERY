@@ -1,0 +1,111 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+
+{
+    background-size: 70%;
+    background-position-y: 120px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-color: #F5E3A4;
+}
+
+header
+{
+    display: flex;
+    background-color: #FF0000;
+    height: 109px;
+    justify-content: space-between;
+}
+
+header svg
+{
+    width: 32px;
+    margin-left: 30px;
+    fill: whitesmoke;
+}
+
+header div
+{
+    align-items: center;
+    display: flex;
+}
+
+header a
+{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Amiko';
+    width: 250px;
+    height: 29px;
+    font-size: 30px;  
+}
+
+header>a:hover
+{
+    filter: brightness(95%);
+    transition: 1s;
+}
+
+section
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+section img
+{
+    width: 526px;
+    border-radius: 131px;
+}
+
+section div
+{
+    width: 592px;
+}
+
+div h1
+{
+    font-family: 'Amethysta';
+    font-size: 100px;
+}
+
+section>div p
+{
+    font-family: 'Amethysta';
+    font-size: 20px;
+    padding: 20px;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer svg
+{
+    fill: #36bb22;
+    width: 140px;
+    width: 130px;
+}
+
+footer>div:first-child
+{
+    margin-left: 100px;
+    text-align: center;
+}
+
+footer>div:first-child p
+{
+    font-size: 30px;
+    font-family: 'Amiko';
+    font: 700;
+}

@@ -1,0 +1,152 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #F5E3A4;
+}
+
+header
+{
+    display: flex;
+    background-color: #FF0000;
+    height: 109px;
+    justify-content: space-between;
+}
+
+header svg
+{
+    width: 32px;
+    margin-left: 30px;
+    fill: whitesmoke;
+}
+
+header div
+{
+    align-items: center;
+    display: flex;
+}
+
+header a
+{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Amiko';
+    width: 251px;
+    height: 29px;
+    font-size: 30px;  
+}
+
+
+
+section
+{
+text-align: center;
+margin-left: 350px;
+margin-top: 100px;
+}
+
+section>div:first-child
+{
+    width: 1174px;
+    height: 604px;
+    border-radius: 30px;
+    background-color: #E3E3E3;
+    display: flex;
+    align-items: center;
+}
+
+.parte-cadastro>div:first-child
+{
+    width: 30%;
+    height: 80%;
+    border-right: solid 1px;
+}
+
+.parte-cadastro>div:nth-child(2)
+{
+    width: 70%;
+    height: 100%;
+}
+
+div>h1
+{
+    font-size: 50px;
+    font-family: 'Amethysta';
+}
+
+.formulario div
+{
+    display: flex;
+    height: 30px;
+    margin-top: 40px;
+}
+
+.formulario p
+{
+    font-family: 'Amethysta';
+    font-size: 25px;
+    width: 144px;
+}
+
+.formulario input
+{
+    width: 471px;
+    border-radius: 15px;
+    border: none;
+}
+
+#Nome
+{
+    margin-top: 140px;
+}
+
+#cima
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#senha p
+{
+    width: 260px;
+}
+
+#botao button
+{
+    width: 280px;
+    height: 60px;
+    border-radius: 21px;
+    border: none;
+}
+
+#botao>button:first-child
+{
+    background-color: #0B57D0;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+#botao>button:nth-child(3)
+{
+    background-color: #D9D9D9;
+    color: #0B57D0;
+    font-size: 30px;
+}
+
+#botao>button:hover
+{
+    filter: brightness(80%);
+    transition: 1s;
+}
+
+#botao
+{
+    margin-left: 30px;
+    margin-top: 70px;
+}

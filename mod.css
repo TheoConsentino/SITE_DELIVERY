@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #F5E3A4;
+    background-image: url(banner.png);
+    background-size: 70%;
+    background-position-y: 120px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+header
+{
+    display: flex;
+    background-color: #FF0000;
+    height: 109px;
+    justify-content: right;
+}
+
+header svg
+{
+    width: 32px;
+    margin-left: 30px;
+    fill: whitesmoke;
+}
+
+header div
+{
+    align-items: center;
+    display: flex;
+}
+
+header a
+{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Amiko';
+    width: 251px;
+    height: 29px;
+    font-size: 30px;  
+}
+
+header>a:hover
+{
+    filter: brightness(95%);
+    transition: 1s;
+}
+
+footer
+{
+    margin-top: 34%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer svg
+{
+    fill: #36bb22;
+    width: 140px;
+    width: 130px;
+}
+
+footer>div:first-child
+{
+    margin-left: 100px;
+    text-align: center;
+}
+
+footer>div:first-child p
+{
+    font-size: 30px;
+    font-family: 'Amiko';
+    font: 700;
+}
+
+footer>div:nth-child(3)
+{
+    margin-right: 100px;
+}
+
+footer>div:nth-child(3) img
+{
+    border-radius: 30%;
+    width: 200px;
+}
+
+footer>div:nth-child(2)
+{
+    align-content: center;
+}
+
+footer>div:nth-child(2) button
+{
+    width: 700px;
+    height: 55px;
+    border-radius: 39px;
+    background-color: #F5BB5B;
+    font-size: 30px;
+    font-family: 'Comfortaa';
+    color: #F57700;
+    border: 0;
+    font: 700;
+    cursor: pointer;
+}
+
+footer>div:nth-child(2)>button:hover
+{
+    filter: brightness(95%);
+    transition: 1s;
+}

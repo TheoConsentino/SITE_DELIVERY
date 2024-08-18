@@ -1,0 +1,132 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #F5E3A4;
+}
+
+header
+{
+    display: flex;
+    background-color: #FF0000;
+    height: 109px;
+    justify-content: space-between;
+}
+
+header svg
+{
+    width: 32px;
+    margin-left: 30px;
+    fill: whitesmoke;
+}
+
+header div
+{
+    align-items: center;
+    display: flex;
+}
+
+header a
+{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Amiko';
+    width: 251px;
+    height: 29px;
+    font-size: 30px;  
+}
+
+header>a:hover
+{
+    filter: brightness(95%);
+    transition: 1s;
+}
+
+section
+{
+    display: grid;
+    grid-template-rows: 170px 100px 290px 290px 100px 290px;
+}
+
+.lojas
+{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.lojas img
+{
+    width: 150px;
+    border-radius: 398px;
+}
+
+.lojas svg
+{
+    width: 60px;
+    height: 60px;
+}
+
+.titulo
+{
+    padding-left: 110px;
+    align-content: center;
+}
+
+.burguer
+{
+    display: flex;
+    padding-left: 110px;
+    gap: 30px;
+    padding-top: 40px;
+}
+
+.burguer div
+{
+    position: relative;
+    height: 202px;
+    border-radius: 16px;
+}
+
+.burguer h2
+{
+    height: 101px;
+    width: 100%;
+    color: white;
+    position: absolute;
+    z-index: -99;
+    left: 105px;
+    top: 90px;
+}
+
+.burguer>a:hover
+{
+    cursor: pointer;
+}
+
+.burguer>a:hover img
+{
+    filter: brightness(70%);
+    transition: 1s;
+}
+
+.burguer>a:hover h2
+{
+    z-index: 99;
+    transition: 1s; 
+}
+
+.burguer img
+{
+    width: 300px;
+    height: 202px;
+    border-radius: 16px;
+}
